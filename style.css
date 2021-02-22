@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    background-image: url("https://www.gradelink.com/wp-content/uploads/2019/03/StudentsWithTablets.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+main{
+    background-color: rgba(255,255,255,0.3);
+    height: 70vh;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 50px;
+    padding-top: 120px;
+    
+    
+    
+}
+.masthead-brand {
+    text-shadow: 2px 2px floralwhite;
+    font-size: 50px;
+}
+.nav-link{
+    background-color: rgb(21, 202, 157);
+    margin: 10px;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px 50px;
+    text-align: center;
+}
+
+.modBox{
+    background-color: rgba(139, 137, 135, 0.9);
+    height: 100%;
+    padding: 20px;
+    color: floralwhite;
+}
+
